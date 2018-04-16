@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="SHORTCUT ICON" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <script data-pace-options='{ "ajax": false }' src='js/pace.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/pace-theme-center-simple.tmpl.css">
+    <title>Mr.Cellar</title>
+<body>
+<div class="loader-content">
+    <div class="overlay"></div>
+    <div class="eye"></div>
+    <span class="loading-info">Loading</span>
+</div>
+<main class="main">
+    <div class="meteors">
+        <div class="meteor"></div>
+        <div class="meteor"></div>
+        <div class="meteor"></div>
+    </div>
+    <div id="paralax-images" class="paralax">
+        <div class="paralax__img paralax__img1" id="l1">
+            <img src="images/earth.png">
+        </div>
+        <div class="paralax__img paralax__img2" id="l2">
+            <img src="images/stars1.png">
+        </div>
+        <div class="paralax__img paralax__img3" id="l3">
+            <img src="images/stars2.png">
+        </div>
+        <div class="paralax__img paralax__img4" id="l4">
+            <img src="images/stars3.png">
+        </div>
+        <div class="paralax__img paralax__img5" id="l5">
+            <img src="images/stars4.png">
+        </div>
+        <div class="paralax__img paralax__img6" id="l6">
+            <img src="images/stars5.png">
+        </div>
+        <div class="paralax__img paralax__img7" id="l7">
+            <img src="images/stars6.png">
+        </div>
+        <div class="paralax__img paralax__img8" id="l8">
+            <img src="images/stars7.png">
+        </div>
+    </div>
+    <div class="header-wrapper">
+        <div class="l-container">
+            <header class="header">
+                <div class="logo">
+                    <a href="#" class="logo__link"></a>
+                </div>
+                <div class="social-buttons">
+                    <a class="b-btn b-btn-border" href="https://youtu.be/kwgEr_jhLU8"><span>Watch on Youtube</span><i
+                            class="icon-youtube-logo"></i></a>
+                    <a href="https://soundcloud.com/mr_cellar" class="b-btn b-btn-border "><span>Listen on SoundCloud</span><i
+                            class="icon-soundcloud"></i></a>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="content">
+        <div class="l-container">
+            <div class="main-image glitch"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="l-container">
+            <div class="flex-wrapper">
+                <a href="/images/myw3schoolsimage.jpg" download class="b-btn b-btn-primary download-link">
+                    <div class="b-btn__part"></div>
+                    <div class="b-btn__part"></div>
+                    <div class="b-btn__part"></div>
+                    <div class="b-btn__text">
+                        <span>Download track</span>
+                        <i class="icon-download"></i>
+                    </div>
+                </a>
+                <span class="copyright">© Mr.Cellar. 2018</span>
+                <div class="sound-box">
+                    <button class="btn btn-play " onclick="wavesurfer.playPause()">
+                        <i class="play-icon"></i>
+                        <i class="pause-icon"></i>
+                    </button>
+                    <div id="waveform"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.5/wavesurfer.min.js"></script>
+<script>
+    var wavesurfer = WaveSurfer.create({
+        container: '#waveform',
+        waveColor: '#ffffff4d',
+        backend: 'MediaElement',
+        mediaType: 'audio',
+        progressColor: '#DE7A45',
+        cursorColor: '#fff',
+        normalize: true,
+        barHeight: 10,
+        barWidth: 3,
+        height: 50
+    });
+    wavesurfer.load('/audio/ALLADIN.wav');
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="soundcloud" unicode="&#xe800;" d="M844 381a156 156 0 0 1-33-3c-14 142-134 253-280 253-17 0-31-14-31-31v-500c0-17 14-31 31-31h313c86 0 156 70 156 156 0 86-70 156-156 156z m-438 188c-17 0-31-14-31-31v-438c0-17 14-31 31-31s32 14 32 31v438c0 17-14 31-32 31z m-125-125c-17 0-31-14-31-31v-313c0-17 14-31 31-31s32 14 32 31v313c0 17-14 31-32 31z m-125 0c-17 0-31-14-31-31v-313c0-17 14-31 31-31s32 14 32 31v313c0 17-14 31-32 31z m-125-94c-17 0-31-14-31-31v-188c0-17 14-31 31-31s32 14 32 31v188c0 17-14 31-32 31z" horiz-adv-x="1000" />
+
+<glyph glyph-name="youtube-logo" unicode="&#xe801;" d="M992 539c-6 66-46 150-127 153-228 16-498 20-730 0-72-8-121-95-126-162-12-140-12-219 0-359 5-67 53-155 126-164 235-15 503-18 730 0 71 12 121 97 127 164 11 140 11 228 0 368z m-617-366v359l312-180-312-179z" horiz-adv-x="1000" />
+
+<glyph glyph-name="download" unicode="&#xe802;" d="M939 183c-22 0-40-18-40-40v-192h-798v192c0 22-18 40-40 40-22 0-39-18-39-40v-232c0-22 17-40 39-40h878c22 0 40 18 40 40v232c0 22-18 40-40 40z m-468-47c22-23 50-10 58 0l229 246c15 17 14 42-2 57-16 15-41 14-56-2l-160-172v518c0 22-18 40-40 40-22 0-40-18-40-40v-518l-160 172c-15 16-40 17-56 2-16-15-17-41-2-57l229-246z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
